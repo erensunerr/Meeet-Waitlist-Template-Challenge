@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Sen:wght@400;700;800&display=swap');
+
+.font-family-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-family-sen {
+  font-family: 'Sen', sans-serif;
+}
