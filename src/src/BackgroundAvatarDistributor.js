@@ -5,15 +5,10 @@ import UserPhoto3 from './images/User Avatar 3.svg';
 import UserPhoto4 from './images/User Avatar 4.svg';
 import UserPhoto5 from './images/User Avatar 5.svg';
 
-import {useEffect} from 'react';
 
 
-// image sizes
-// const small = 24;
-// const medium = 32;
-// const large = 40;
 
-function BackgroundAvatarDistributor({}) {
+function BackgroundAvatarDistributor() {
   // handles the avatar images in the background
   return (
     <>
