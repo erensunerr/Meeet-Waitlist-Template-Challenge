@@ -5,10 +5,11 @@ import BackgroundAvatarDistributor from './BackgroundAvatarDistributor';
 
 
 function App() {
+  // Renders the landing page
   return (
     <div className="bg-[rgb(2,50,66)]">
     <BackgroundAvatarDistributor />
-    <div className="p-4 w-screen flex flex-col  min-h-screen justify-between z-0 container mx-auto">
+    <div className="py-8 w-screen flex flex-col  min-h-screen justify-between z-0 container mx-auto">
       <div className="">
         <img src={LogoImage} alt=""/>
       </div>
@@ -20,14 +21,20 @@ function App() {
           Meeet is the new social media platform for
           entrepreneurs to connect and socialize.
         </p>
-        <button className="text-xl font-family-inter  px-6 py-5 bg-[rgb(48,245,199)] rounded font-bold text-[rgb(2,50,66)]">
+        <button className={`
+          text-xl font-family-inter  px-6 py-5 bg-[rgb(48,245,199)] rounded font-bold text-[rgb(2,50,66)]
+          hover:underline
+          `} onClick={() => alert('nice click')}>
           Get notified at launch
         </button>
       </div>
       <div className="z-50">
-        <button className="flex font-family-inter items-center text-lg text-[rgb(169,188,198)]">
+        <button className={`
+          flex font-family-inter items-center text-lg text-[rgb(169,188,198)]
+          hover:underline
+        `} onClick={() => window.open('https://twitter.com', '_blank')}>
           <img src={TwitterLogo} alt=""/>
-          <p className="ml-4 ">
+          <p className="ml-4">
             Follow us on Twitter
           </p>
         </button>
